@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Screenshot Placeholders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .placeholder {
+            width: 800px;
+            height: 600px;
+            margin: 20px auto;
+            background: white;
+            border: 2px solid #3DE2E2;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .placeholder h1 {
+            color: #3DE2E2;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .placeholder p {
+            color: #666;
+            font-size: 1.2em;
+            max-width: 600px;
+        }
+        .instructions {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            background: #3DE2E2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>📸 Screenshot Instructions</h2>
+        <p><strong>To create the missing screenshots:</strong></p>
+        <ol>
+            <li>Open your TAM website pages in a browser</li>
+            <li>Take screenshots of each page</li>
+            <li>Save them as PNG files in the images folder</li>
+            <li>Replace these placeholder files</li>
+        </ol>
+        
+        <a href="tam_sangomas.html" target="_blank" class="btn">🔮 Open Sangomas Page</a>
+        <a href="tam_home.html" target="_blank" class="btn">🏠 Open Homepage</a>
+    </div>
+
+    <div class="placeholder" id="sangomas-placeholder">
+        <h1>🔮 Sangomas Page</h1>
+        <p>This is a placeholder for the Sangomas consultation page screenshot.</p>
+        <p>Please take a screenshot of tam_sangomas.html and save it as 'sangomas-screenshot.png'</p>
+    </div>
+
+    <div class="placeholder" id="healers-placeholder">
+        <h1>🌿 Traditional Healers</h1>
+        <p>This is a placeholder for the traditional healers section screenshot.</p>
+        <p>Please take a screenshot of the healers information and save it as 'healers-screenshot.png'</p>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            const placeholders = document.querySelectorAll('.placeholder');
+            placeholders.forEach(placeholder => {
+                placeholder.addEventListener('click', function() {
+                    alert('Take a screenshot of this page and save it in the images/ folder!');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -63,11 +63,11 @@ TAM/
 *The homepage features a clean layout with the Artemisia Afra plant information, user reviews, and navigation to different sections of traditional medicine.*
 
 ### Sangomas Consultation Page
-![Sangomas Page](images/sangomas-screenshot.png)
+> 📸 **Screenshot Coming Soon** - Sangomas consultation table with healer schedules and fees
 *The Sangomas page displays a comprehensive table with consultation times, healer contact information, and service fees.*
 
 ### Traditional Healers Section
-![Traditional Healers](images/healers-screenshot.png)
+> 📸 **Screenshot Coming Soon** - Traditional healers information and categories
 *Information about different types of traditional healthcare practitioners including diviners, herbalists, faith healers, and traditional birth attendants.*
 
 > **Note**: Screenshots will be added to the `images/` folder. To add your own screenshots:
