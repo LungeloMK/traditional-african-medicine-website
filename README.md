@@ -59,19 +59,22 @@ TAM/
 ## 🌐 Website Screenshots
 
 ### Home Page
-![TAM Homepage](https://via.placeholder.com/800x600/3DE2E2/FFFFFF?text=TAM+Homepage+%7C+Traditional+African+Medicine)
-
+![TAM Homepage](images/homepage-screenshot.png)
 *The homepage features a clean layout with the Artemisia Afra plant information, user reviews, and navigation to different sections of traditional medicine.*
 
 ### Sangomas Consultation Page
-![Sangomas Page](https://via.placeholder.com/800x600/3DE2E2/FFFFFF?text=Sangomas+Consultation+Schedule)
-
+![Sangomas Page](images/sangomas-screenshot.png)
 *The Sangomas page displays a comprehensive table with consultation times, healer contact information, and service fees.*
 
 ### Traditional Healers Section
-![Traditional Healers](https://via.placeholder.com/800x400/3DE2E2/FFFFFF?text=Traditional+Healers+%7C+Sangomas+%7C+Herbalists)
-
+![Traditional Healers](images/healers-screenshot.png)
 *Information about different types of traditional healthcare practitioners including diviners, herbalists, faith healers, and traditional birth attendants.*
+
+> **Note**: Screenshots will be added to the `images/` folder. To add your own screenshots:
+> 1. Take screenshots of your website pages
+> 2. Save them in an `images/` folder
+> 3. Name them: `homepage-screenshot.png`, `sangomas-screenshot.png`, `healers-screenshot.png`
+> 4. Commit and push to GitHub
 
 ## 🚀 Getting Started
 
