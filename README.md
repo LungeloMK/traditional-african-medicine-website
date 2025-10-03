@@ -63,18 +63,12 @@ TAM/
 *The homepage features a clean layout with the Artemisia Afra plant information, user reviews, and navigation to different sections of traditional medicine.*
 
 ### Sangomas Consultation Page
-> 📸 **Screenshot Coming Soon** - Sangomas consultation table with healer schedules and fees
+![Sangomas Page](images/sangomas-screenshot.png)
 *The Sangomas page displays a comprehensive table with consultation times, healer contact information, and service fees.*
 
-### Traditional Healers Section
-> 📸 **Screenshot Coming Soon** - Traditional healers information and categories
-*Information about different types of traditional healthcare practitioners including diviners, herbalists, faith healers, and traditional birth attendants.*
-
-> **Note**: Screenshots will be added to the `images/` folder. To add your own screenshots:
-> 1. Take screenshots of your website pages
-> 2. Save them in an `images/` folder
-> 3. Name them: `homepage-screenshot.png`, `sangomas-screenshot.png`, `healers-screenshot.png`
-> 4. Commit and push to GitHub
+> **Note**: Screenshots are stored in the `images/` folder. Current screenshots include:
+> - `homepage-screenshot.png` - Main TAM homepage
+> - `sangomas-screenshot.png` - Sangomas consultation page
 
 ## 🚀 Getting Started
 
