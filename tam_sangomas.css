@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+   TAM Sangomas Style Sheet
+   Author: VS Msimango
+   Date:   2024-03-14
+
+   Filename: tam_sangomas.css
+
+*/
+
+/* HTML and Body Styles */
+
+html {
+   background-color: rgb(61, 226, 226);
+}
+
+body {
+   background-color: rgb(231, 231, 231);
+   margin: 0px auto;
+   width: 90%;
+   max-width: 1100px;
+   min-width: 720px;
+   box-shadow: 10px 0px 50px rgb(51, 51, 51), -10px 0px 50px rgb(51, 51, 51);
+}
+
+/* Header Styles */
+
+header {
+   text-align: center;
+   margin: 20px 0;
+}
+
+header h1 {
+   font-size: 2.5em;
+   font-weight: bold;
+   color: rgb(51, 51, 51);
+   margin-bottom: 20px;
+}
+
+header p {
+   font-size: 1.1em;
+   color: rgb(51, 51, 51);
+   text-align: left;
+   margin: 0 auto;
+   width: 80%;
+   line-height: 1.4;
+}
+
+/* Table Styles */
+
+table {
+   border-collapse: collapse;
+   margin: 20px auto;
+   width: 80%;
+   border: 1px solid rgb(200, 200, 200);
+}
+
+caption {
+   background-color: rgb(61, 226, 226);
+   color: rgb(51, 51, 51);
+   font-weight: bold;
+   font-size: 1.2em;
+   padding: 10px;
+   text-align: center;
+}
+
+th {
+   background-color: rgb(51, 51, 51);
+   color: white;
+   padding: 10px;
+   text-align: left;
+   border: 1px solid rgb(200, 200, 200);
+   font-weight: bold;
+}
+
+td {
+   background-color: rgb(231, 231, 231);
+   color: rgb(51, 51, 51);
+   padding: 10px;
+   text-align: left;
+   border: 1px solid rgb(200, 200, 200);
+}
+
+/* Footer Styles */
+
+footer {
+   background-color: rgb(23, 143, 143);
+   clear: left;
+   margin-top: 25px;
+   text-align: right;
+   padding: 10px;
+   color: rgb(191, 191, 191);
+}
+
+footer span a {
+   color: rgb(191, 191, 191);
+   text-decoration: underline;
+}
+
+footer span a:hover {
+   color: rgb(0, 167, 167);
+   text-decoration: underline;
+}
